@@ -1,0 +1,55 @@
+:root {
+    --primary: #ff0000;
+    --dark: grey;
+    --darkdark: black;
+    --light: white; 
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .watch{
+  
+    
+        text-align: center;
+        background-color: blanchedalmond;
+        width: 100%;
+    max-width: 200px;
+        margin: auto;
+        padding: 10px;
+        border-radius: 50px;
+    
+    
+  }
+  body
+  {
+    background: var(--dark);
+  color: var(--light);
+  text-shadow: 2px 2px 4px #ff0000;
+}.time
+{
+  font-size: 25px;
+  font-weight: 27px;
+  margin-bottom: 30px;
+}
+.control
+{
+  display: flex;
+  justify-content: end;
+}
+.controls button{
+  background-color: red;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  appearance:none;
+  user-select: none;
+ 
+}
+button:hover{
+  color: blue;
+  opacity:0.2;
+}
+button:active {
+  background-color: darkmagenta;
+}
